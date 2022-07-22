@@ -16,14 +16,37 @@
       }
 
       #navone {
-        border: 1px solid blue;
-        height: 100px;
+        /* border: 1px solid blue; */
+        /* height: 100px; */
+        display: flex;
       }
 
-      #navtwo {
+      .tripicon {
+        /* border: 1px solid; */
+        width: 60%;
+        padding-left: 50px;
+      }
+
+      .fiveopt {
+        /* border: 1px solid red; */
+        display: flex;
+        width: 40%;
+      }
+
+      .fiveopt > div {
+        /* border: 1px solid blue; */
+        padding: 10px;
+      }
+
+      #insp,
+      #ptrip {
+        border: 0px;
+      }
+
+      /* #navtwo {
         border: 1px solid green;
         height: 300px;
-      }
+      } */
 
       #navtwo > h1 {
         text-align: center;
@@ -38,17 +61,16 @@
         border-radius: 5px;
       } */
 
-      #search {
+      #btn {
         border: 1px solid red;
         width: 40%;
-        margin: auto;
-        padding: 12px 12px;
+        padding: 20px;
         text-align: center;
+        margin: auto;
+        margin: 0px 0px 0px 450px;
         border-radius: 7px;
         background-color: #fff;
       }
-
-      
     </style>
   </head>
 
@@ -56,15 +78,65 @@
     <div id="nav">
       <img src="" alt="background image" />
       <div id="navone">
-        <img
+        <!-- <img
           src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
           alt="Tripoto"
-        />
+        /> -->
+
+        <div class="tripicon">
+          <h2>tripoto</h2>
+        </div>
+
+        <div class="fiveopt">
+          <div>
+            <select name="Inspirations" id="insp">
+              <option value="Inpirations">Inpirations</option>
+              <option value="Visit Dubai">Visit Dubai</option>
+              <option value="Visit Singapore">Visit Singapore</option>
+              <option value="Beaches">Beaches</option>
+              <option value="Mountains">Mountains</option>
+              <option value="Heritage">Heritage</option>
+              <option value="Weekend Guide">Weekend Guide</option>
+              <option value="Upcoming Festivals">Upcoming Festivals</option>
+              <option value="Honeymoon Packages">Honeymoon Packages</option>
+              <option value="Wildlife Tourism">Wildlife Tourism</option>
+              <option value="Road Trips">Road Trips</option>
+              <option value="Getaways Guide">Getaways Guide</option>
+              <option value="Luxury Travel">Luxury Travel</option>
+              <option value="Explore More">Explore More</option>
+            </select>
+          </div>
+          <div>Forum</div>
+          <div>Packages</div>
+          <div>
+            <select name="Publish Trip" id="ptrip">
+              <option value="Publish Trip">Publish Trip</option>
+              <option value="">Create New</option>
+              <option value="">Upload Photos/Videos</option>
+              <option value="">Import Blog</option>
+            </select>
+          </div>
+          <div>Sign In</div>
+        </div>
       </div>
       <div id="navtwo">
         <h1>India's Largest Community of Travellers</h1>
-
-        <div id="search">Search Box</div>
+        <div>
+          <button id="btn" type="submit">
+            Search for itineraries, destinations, hotels or activities
+          </button>
+          <img src="" alt="searchicon" />
+        </div>
+        <!-- <div class="search-form text-left relative" style="margin:9px 10px">
+      <button type="submit" class="search-submit background-none outline-none border-none font-zero absolute padding-row-med padding-col-small disable-click">
+      <img style="height:16px;width:17px" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Search"/>
+        </button>
+      <div class="ellipsis width-100 font-normal font-helvetica outline-none font-default border-radius-small box-shadow-container border-top-none color-dark background-white noselect display-block" 
+      style="padding:10px 36px 10px 34px;border-top:none;cursor:text">Search for itineraries, destinations, hotels or activities</div>
+      <button type="button" id="menu-button" class="background-none font-zero outline-none border-none padding-row-med padding-col-default absolute initially-invisible right-0 bottom-0">
+      <img style="height:16px;width:16.88888888888889px" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Menu"/>
+              </button>
+            </div> -->
       </div>
     </div>
   </body>
