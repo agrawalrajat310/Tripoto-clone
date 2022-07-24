@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Packages</title>
+
+    <style>
+      /* First Part */
+
+      #nav {
+        /* border: 1px solid red; */
+        /* height: 400px; */
+        width: 100%;
+        padding-bottom: 50px;
+        background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/30751/Image/1526037226_holidaycover.jpeg");
+        background-repeat: round;
+      }
+
+      .tripicon:hover {
+        cursor: pointer;
+      }
+
+      .tripicon {
+        display: flex;
+        padding-top: 15px;
+        margin-left: 15px;
+      }
+
+      #tabs {
+        display: flex;
+        /* width: 500px; */
+        gap: 30px;
+        margin-top: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 800px;
+      }
+
+      #in {
+        width: 800px;
+        margin: auto;
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+      }
+
+      #in h1 {
+        font-size: 40px;
+        padding-top: 30px;
+      }
+
+      #in input {
+        width: 80%;
+        padding: 15px 20px 15px 25px;
+        border-radius: 10px;
+        color: grey;
+      }
+
+      .insidesearch {
+        display: flex;
+        justify-content: center;
+      }
+
+      .search {
+        margin-left: -30px;
+        width: 25px;
+      }
+
+      #tabs > div:nth-child(3) > a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* Second Part */
+
+      #second {
+        /* border: 1px solid green; */
+        width: 30%;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 150px;
+        /* height: auto; */
+      }
+
+      #second > p {
+        margin-left: 10px;
+        font-size: small;
+      }
+
+      /* Third Part */
+
+      a {
+        color: #62aba9;
+        text-decoration: none;
+      }
+
+      #head {
+        margin-left: 150px;
+      }
+
+      #threecards {
+        /* border: 1px solid red; */
+        width: 85%;
+        margin: auto;
+        /* margin-top: 100px; */
+        margin-left: 150px;
+        height: 400px;
+        display: flex;
+      }
+
+      #threecards > div {
+        /* border: 1px solid; */
+        margin: auto;
+        height: 100%;
+        width: 30%;
+      }
+
+      #cardone {
+        width: 100%;
+        /* height: 50%; */
+      }
+
+      .cardone1 > img {
+        width: 100%;
+        height: 30%;
+        border-radius: 5px;
+      }
+
+      .cardone2 > h3:nth-child(1) {
+        margin-top: -3px;
+      }
+
+      .cardone2 > h3 {
+        margin-top: -15px;
+      }
+
+      .cardone2 > h4 {
+        margin-top: -7px;
+      }
+
+      /* Fourth Part, Fifth Part, Sixth Part is as same as Third Part*/
+
+      .sixp {
+        margin-left: 150px;
+      }
+
+      /* Seventh Part */
+
+      #bottom {
+        margin-left: 150px;
+        margin-top: -150px;
+      }
+
+      #bottom > p {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First Part -->
+
+    <div id="nav">
+      <!-- <img src="https://cdn1.tripoto.com/media/filter/tst/img/30751/Image/1526037226_holidaycover.jpeg" alt="background image"> -->
+      <div class="tripicon">
+        <a href="index.html"
+          ><img
+            src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
+            alt="tripoto icon"
+        /></a>
+
+        <!-- 5 options part -->
+        <div id="tabs">
+          <div>Inspiration ▼</div>
+          <div>Forum</div>
+          <div>Packages</div>
+          <div>Publish Trip ▼</div>
+          <div>Sign in</div>
+        </div>
+      </div>
+
+      <!-- Navbar front center part -->
+      <div id="in">
+        <h1>Exclusive Tours & Holiday Packages</h1>
+        <div class="insidesearch">
+          <input type="text" placeholder="Search Packages For Destinations" />
+          <img
+            class="search"
+            src="data:image/svg+xml,%3csvg viewBox='0 0 34 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='16px' width='17px'%3e %3cpath style='fill:%23506066' d='M20.571 14.857q0-3.304-2.348-5.652t-5.652-2.348-5.652 2.348-2.348 5.652 2.348 5.652 5.652 2.348 5.652-2.348 2.348-5.652zM29.714 29.714q0 0.929-0.679 1.607t-1.607 0.679q-0.964 0-1.607-0.679l-6.125-6.107q-3.196 2.214-7.125 2.214-2.554 0-4.884-0.991t-4.018-2.679-2.679-4.018-0.991-4.884 0.991-4.884 2.679-4.018 4.018-2.679 4.884-0.991 4.884 0.991 4.018 2.679 2.679 4.018 0.991 4.884q0 3.929-2.214 7.125l6.125 6.125q0.661 0.661 0.661 1.607z'%3e %3c/path%3e %3c/svg%3e"
+            alt="search box"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Part -->
+
+    <div id="second">
+      <img
+        src="https://cdn1.tripoto.com/assets/2.9/img/logo/mini-logo.png"
+        alt="location icon"
+      />
+      <p>> Exclusive Tours & Holiday Packages</p>
+    </div>
+
+    <!-- Third Part-->
+    <div id="head">
+      <h2>Tripoto's Mindful Retreats</h2>
+    </div>
+
+    <div id="threecards">
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>
+            Explore One Of Asia's Spookiest Spots While Unwinding Amidst Nature
+            | Seegreen Lodges, Mussoorie
+          </h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Mussoorie</a
+            >
+          </h3>
+
+          <p>Rs 7,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>
+            Explore One Of Asia's Spookiest Spots While Unwinding Amidst Nature
+            | Seegreen Lodges, Mussoorie
+          </h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Mussoorie</a
+            >
+          </h3>
+
+          <p>Rs 7,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>
+            Explore One Of Asia's Spookiest Spots While Unwinding Amidst Nature
+            | Seegreen Lodges, Mussoorie
+          </h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Mussoorie</a
+            >
+          </h3>
+
+          <p>Rs 7,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Part -->
+
+    <div id="head">
+      <h2>Trending Domestic Packages</h2>
+    </div>
+
+    <div id="threecards">
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1565782455_ladakh_app.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Leh Ladakh Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Leh Ladakh</a
+            >
+          </h3>
+
+          <p>Rs 25,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Kashmir Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Kashmir</a
+            >
+          </h3>
+
+          <p>Rs 16,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567494998_andaman_app.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Andaman Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Andaman</a
+            >
+          </h3>
+
+          <p>Rs 18,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fifth Part -->
+
+    <div id="head">
+      <h2>Trending International Packages</h2>
+    </div>
+
+    <div id="threecards">
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/454712/Image/1578895208_web_maldives.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Maldives Holiday Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Maldives</a
+            >
+          </h3>
+
+          <p>Rs 70,500 onwards</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567083631_singapore_web.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Singapore Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Singapore</a
+            >
+          </h3>
+
+          <p>Rs 26,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567082582_thailand_app.jpg"
+            alt="image"
+          />
+        </div>
+
+        <div class="cardone2">
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >PACKAGE</a
+            >
+          </h3>
+
+          <h4>Thailand Packages</h4>
+
+          <h3>
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Thailand</a
+            >
+          </h3>
+
+          <p>Rs 20,500 / person</p>
+
+          <button type="submit">
+            <a
+              href="https://www.tripoto.com/collections/tour-packages/live-amidst-deodar-forests-experience-a-haunted-walk-at-this-offbeat-retreat-seegreen-lodges-mu-1657"
+              >Book Now</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sixth Part -->
+
+    <div id="head">
+      <h2>Customizable Tour Packages</h2>
+    </div>
+
+    <p class="sixp">
+      Need help in getting a perfect travel experience according to your need?
+      Tripoto has curated several travel packages covering some of the most
+      popular holiday destinations for you!
+    </p>
+
+    <div id="threecards">
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1597313001_coup.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1597742263_f.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+
+      <div id="cardone">
+        <div class="cardone1">
+          <img
+            src="https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1597312306_budget.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Seventh Part -->
+
+    <div id="bottom">
+      <h1>Domestic Getaways</h1>
+      <p>
+        There's a striking difference between travelling on your own terms and
+        being bound by an itinerary designed by somebody else. That's why,
+        Tripoto allows you to customise your packages to the best possible
+        extent. Choose from Tripoto's select range of sanitised properties
+        available at unbelievable prices for a safe & memorable getaway!
+      </p>
+
+      <h1>Pick from hundreds of holiday packages</h1>
+      <p>
+        There is something for everyone who visits on Tripoto platform. Whether
+        you wish to get a taste of India's rich heritage in Rajasthan, or pay a
+        visit to the Himalayas to heal your senses; it's all included. Also, on
+        offer are international holiday packages, specially curated for Indian
+        travellers. Witness the breathtaking beaches of Thailand or stroll
+        through the bustling cities in Australia. Newlyweds can chose from some
+        of the most sought after honeymoon destinations like Maldives or
+        Iceland, or go off the beaten path in destinations like China or Egypt.
+        If you are looking for a quick break, plan a weekend getaway to some of
+        the top hideouts near your city. Business travellers and group tours are
+        in the mix as well - popular packages include trips to places like Dubai
+        and Malaysia. If you are seeking some serious adventure, select from
+        trekking packages through some of the most scenic mountainous ranges in
+        the world and capture moments for a lifetime. Skydiving, scuba diving,
+        adventure biking, and much more on Tripoto - it's a one of the most
+        dynamic selection of trips and activities for Indian travellers.
+      </p>
+
+      <h1>Why book holidays with Tripoto?</h1>
+      <p>
+        <a href="https://www.tripoto.com/travel-assistant">Tripoto's</a> travel
+        partners provide some of the best India tour packages and International
+        tour packages. We are passionate about travel and strive to offer
+        experiences that matter. Get in touch with our team with any query about
+        holiday packages in India.
+      </p>
+
+      <h1>How to book holidays with Tripoto?</h1>
+      <p>
+        Booking holidays on Tripoto is as easy as it gets. Pick from hundreds of
+        packages. We will then connect you with your choices of travel providers
+        via email and/or phone. Tripoto partners with leading travel companies
+        in India, like MakeMyTrip, Thomas Cook, SOTC, Yatra, to name a few, to
+        help you plan the perfect vacation. Here is the step-by-step guide to
+        booking domestic or international packages on Tripoto. <br />
+
+        Step 1: Click on the 'Book Holidays' button on the top right corner of
+        any page on Tripoto. <br />
+        Step 2: You will be taken to a page with different categories of
+        packages. <br />
+        Step 3: Click on any package to submit your requirements. We will attend
+        to your query and put you in touch with a representative from our travel
+        partners within 48 hours.
+      </p>
+    </div>
+    <hr />
+  </body>
+</html>
